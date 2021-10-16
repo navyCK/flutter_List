@@ -57,6 +57,32 @@ class _MyHomePageState extends State<MyHomePage> {
         items.addAll(duplicateItems);
       });
     }
+    // 초성 알아내기...
+    print(
+        "가 : " + ((("가".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "까 : " + ((("까".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "나 : " + ((("나".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "다 : " + ((("다".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "따 : " + ((("따".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "라 : " + ((("라".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "마 : " + ((("마".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "바 : " + ((("바".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "빠 : " + ((("빠".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "사 : " + ((("사".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "싸 : " + ((("싸".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "아 : " + ((("아".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "자 : " + ((("자".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "짜 : " + ((("짜".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "차 : " + ((("차".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "카 : " + ((("카".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "타 : " + ((("타".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "파 : " + ((("파".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "하 : " + ((("하".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+
+        "창세기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "창세기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "창세기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+    );
   }
 
   @override
