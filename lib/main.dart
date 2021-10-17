@@ -80,8 +80,8 @@ class _MyHomePageState extends State<MyHomePage> {
         "하 : " + ((("하".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
 
         "창세기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
-        "창세기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
-        "창세기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "출애굽기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
+        "레위기 : " + ((("창세기".runes.first - 0xAC00) / 28) / 21).toString() + "\n"
     );
   }
 
